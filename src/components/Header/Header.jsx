@@ -1,4 +1,4 @@
-import { Box, Link, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React from "react";
 import Logo from "../../assets/logo.svg";
 import HeaderLink from "../public/HeaderLink";

@@ -27,6 +27,10 @@ const HeaderLink = ({ title, active, link, marginRight }) => {
           background: "#FFF",
           opacity: active ? 1 : 0,
         },
+        ":hover": {
+          fontWeight: "400",
+          color: "#FFF",
+        },
       }}
     >
       {title}
