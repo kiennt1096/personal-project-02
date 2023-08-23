@@ -1,6 +1,7 @@
 import "./App.css";
 import { Box, ThemeProvider, createTheme } from "@mui/material";
 import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
 
 const THEME = createTheme({
   typography: {
@@ -14,6 +15,7 @@ function App() {
       <Box sx={{ display: "flex", alignItems: "center" }}>
         <Box className="content">
           <Header />
+          <Hero />
         </Box>
       </Box>
     </ThemeProvider>

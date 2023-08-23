@@ -1,24 +1,24 @@
 import { Button } from "@mui/material";
 import React from "react";
 
-const ButtonCommon = () => {
+const ButtonCommon = ({ title, padding, fontSize, lineHeight }) => {
   return (
     <Button
       sx={{
-        padding: "8px 20px",
+        padding: padding ? padding : "8px 20px",
         textTransform: "none",
         color: "#FFF",
         background: "#2E80CE",
-        borderRadius: "22px",
-        lineHeight: "28px",
-        fontSize: "16px",
+        borderRadius: "50px",
+        lineHeight: lineHeight ? lineHeight : "28px",
+        fontSize: fontSize ? fontSize : "16px",
         ":hover": {
           background: "#2E80CE",
           opacity: "0.9",
         },
       }}
     >
-      Sign Up
+      {title}
     </Button>
   );
 };

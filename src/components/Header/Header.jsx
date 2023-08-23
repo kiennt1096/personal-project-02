@@ -54,7 +54,7 @@ const Header = () => {
         </Box>
         <Box>
           <HeaderLink title="Log In" link="#!" marginRight="28px" />
-          <ButtonCommon />
+          <ButtonCommon title="Sign Up" />
         </Box>
       </Box>
     </Box>
