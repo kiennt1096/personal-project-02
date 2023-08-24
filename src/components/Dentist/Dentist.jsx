@@ -3,13 +3,11 @@ import React from "react";
 import ButtonCommon from "../public/ButtonCommon";
 import DentistCard from "../public/DentistCard";
 import DentistImage from "../../assets/dentist.png";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import FabIcon from "../public/FabIcon";
 
 const Dentist = () => {
   return (
-    <Box sx={{ width: "100%", background: "#FFF", padding: "170px 0" }}>
+    <Box sx={{ width: "100%", background: "#FFF", padding: "170px 0 85px" }}>
       <Box
         maxWidth="1170px"
         marginLeft="auto"
