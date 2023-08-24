@@ -7,6 +7,7 @@ import HowItWorks from "./components/HowItWorks/HowItWorks";
 import TakeBack from "./components/TakeBack/TakeBack";
 import Dentist from "./components/Dentist/Dentist";
 import Mobile from "./components/Mobile/Mobile";
+import LastNews from "./components/LastestNews/LastNews";
 
 const THEME = createTheme({
   typography: {
@@ -26,6 +27,7 @@ function App() {
           <TakeBack />
           <Dentist />
           <Mobile />
+          <LastNews />
         </Box>
       </Box>
     </ThemeProvider>
