@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import OurServices from "./components/OurServices/OurServices";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
+import TakeBack from "./components/TakeBack/TakeBack";
 
 const THEME = createTheme({
   typography: {
@@ -20,6 +21,7 @@ function App() {
           <Hero />
           <OurServices />
           <HowItWorks />
+          <TakeBack />
         </Box>
       </Box>
     </ThemeProvider>
