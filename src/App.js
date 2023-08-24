@@ -8,6 +8,7 @@ import TakeBack from "./components/TakeBack/TakeBack";
 import Dentist from "./components/Dentist/Dentist";
 import Mobile from "./components/Mobile/Mobile";
 import LastNews from "./components/LastestNews/LastNews";
+import Appointment from "./components/Appoinrment/Appointment";
 
 const THEME = createTheme({
   typography: {
@@ -28,6 +29,7 @@ function App() {
           <Dentist />
           <Mobile />
           <LastNews />
+          <Appointment />
         </Box>
       </Box>
     </ThemeProvider>
